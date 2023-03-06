@@ -12,7 +12,8 @@
     "preview": "vite preview",
     "prepare": "husky install",
     "lint:fix": "eslint --fix .",
-    "commit:changes": "git add -A && cz"
+    "commit:changes": "git add -A && cz",
+    "ci": "pnpm install --frozen-lockfile"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -47,6 +48,7 @@
     "eslint-plugin-tsdoc": "^0.2.17",
     "husky": "^8.0.3",
     "jest-dom": "link:@types/@testing-library/jest-dom",
+    "jsdom": "^21.1.0",
     "lint-staged": "^13.1.2",
     "prettier": "^2.8.4",
     "typescript": "^4.9.3",
